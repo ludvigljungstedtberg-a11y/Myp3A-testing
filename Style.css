@@ -1,5 +1,5 @@
 body {
-  font-family:  "Mond", sans-serif;
+  font-family:  airal, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,12 +8,12 @@ body {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #FFFF00;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   text-align: center;
-  width: 300px;
+  width: 1000px;
 }
 
 button {
