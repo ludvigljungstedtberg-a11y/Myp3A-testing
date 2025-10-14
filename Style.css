@@ -1,5 +1,5 @@
 body {
-  font-family:  airal, sans-serif;
+  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,11 +22,11 @@ button {
   border: none;
   border-radius: 67px;
   background-color: #4CAF50;
-  color: red  
-        '  ;
+  color: red;
   cursor: pointer;
 }
 
 button:hover {
   background-color: #45a049;
 }
+
