@@ -3,13 +3,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 67vh;
-  background-color: #FF0000;
+  height: 100vh; /* Fill full screen for perfect centering */
+  background-color: #ff0000;
+  margin: 0; /* Remove default browser margins */
 }
 
 .card {
-  background-color: #ff0000;
-  padding: 41px;
+  background-color: #ffffff; /* make card stand out against red background */
+  padding: 40px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   text-align: center;
@@ -18,15 +19,18 @@ body {
 
 button {
   margin-top: 15px;
-  padding: 10px 41px;
+  padding: 10px 40px;
   border: none;
-  border-radius: 67px;
+  border-radius: 50px;
   background-color: #4CAF50;
-  color: red;
+  color: white;
+  font-size: 1rem;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #000000;
 }
+
 
