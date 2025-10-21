@@ -3,13 +3,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Fill full screen for perfect centering */
+  height: 100vh;
   background-color: #ff0000;
-  margin: 0; /* Remove default browser margins */
+  margin: 0;
 }
 
 .card {
-  background-color: #ffffff; /* make card stand out against red background */
+  background-color: #ff0000;
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -22,7 +22,7 @@ button {
   padding: 10px 40px;
   border: none;
   border-radius: 50px;
-  background-color: #4CAF50;
+  background-color: #ff0000;
   color: white;
   font-size: 1rem;
   cursor: pointer;
@@ -30,7 +30,7 @@ button {
 }
 
 button:hover {
-  background-color: #000000;
+  background-color: #ff0000;
 }
 
 
